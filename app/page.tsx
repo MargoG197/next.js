@@ -33,7 +33,7 @@ export default function Page() {
             src="/hero-desktop.png"
             width={1000}
             height={760}
-            className='hidden ${lusitana.className}'
+            className='block md:hidden ${lusitana.className}'
             alt='Screenshots of the dashboard project showing desktop version'
           />
           <Image
